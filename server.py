@@ -12,7 +12,7 @@ def index():
         return "Hola que tal"
 
 @route('/pepe')
-def index():
+def pepe():
     name = request.query.name
     age = request.query.age
     if name and age:
