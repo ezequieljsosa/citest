@@ -11,14 +11,6 @@ def index():
     else:
         return "Hola que tal"
 
-@route('/pepe')
-def pepe():
-    name = request.query.name
-    age = request.query.age
-    if name and age:
-        return f'{name} tiene {age} '
-    else:
-        return "Hola que tal2"
 
 if __name__ == "__main__":
     run(host='0.0.0.0', port=80, debug=True,reloader=True)
