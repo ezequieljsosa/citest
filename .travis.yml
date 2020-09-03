@@ -1,5 +1,5 @@
 language: python
 sudo: false
 python:
-  - 3.5
+  - 3.8
 script: py.test mitest.py -v
