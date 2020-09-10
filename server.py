@@ -6,6 +6,7 @@ from bottle import route, run,request
 def index():
     name = request.query.name
     age = request.query.age
+    apellido = request.query.apellido
     if name and age:
         return f'{name} tiene {age} '
     else:
