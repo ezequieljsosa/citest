@@ -20,4 +20,5 @@ deploy:
  provider: script 
  skip_cleanup: true 
  script: ssh -t ezequieljsosa@34.73.195.127 "cd /home/ezequieljsosa/citest;git pull " 
- on: branch: master 
+ on:
+  branch: master
