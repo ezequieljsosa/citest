@@ -8,7 +8,7 @@ def index():
     age = request.query.age
     apellido = request.query.apellido
     if name and age:
-        return f'{name} tiene {age} '
+        return f'{name} tiene {age} x '
     else:
         return "Hola que tal"
 
